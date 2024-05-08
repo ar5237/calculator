@@ -1,0 +1,114 @@
+*{
+  font-family:'Courier New', Courier, monospace;
+}
+body{
+  background-color: yellowgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 145px;
+  margin-top: 75px;
+}
+.body{
+  width:280px;
+  height: 365px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color:darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.display{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 8px;
+  padding-top: 12px;
+}
+#top,#bottom{
+  width:260px;
+  height:30px;
+  background-color: azure;
+}
+#bottom{
+  height:35px;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.first{
+  width:280px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#clear,#delete{
+  width:120px;
+  height:30px;
+  border:2px solid black;
+  border-radius: 5px;
+  background-color: darkcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second,.third,.fourth,.fifth{
+  margin-left: 11px;
+}
+.second{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 252px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+.third{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 252px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.fourth{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 252px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.fifth{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 252px;
+  margin-top: 5px;
+  margin-bottom: 12px;
+}
+
+
+.num,.operator,.solve{
+  width:45px;
+  height:45px;
+  border:1px solid black;
+  border-radius: 3px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button:hover{
+  scale: 1.1;
+}
